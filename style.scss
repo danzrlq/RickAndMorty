@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://wallpaperaccess.com/full/6798923.jpg");
+    background-size: cover;
+}
+
+header {
+    height: 5vh;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: left;
+}
+
+header h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+div.dugmici{
+   display: flex;
+   justify-content: center;
+    margin-top: 10px;
+}
+
+button.page-btn {
+  background-color: rgba(158, 121, 121, 0.5);
+  color: rgb(12, 6, 6);
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+button.prev-page, button.next-page{
+  background-color: rgb(158, 121, 121)
+}
+
+button.active {
+  background-color: rgb(233, 233, 237);
+}
+
+div.card {
+    margin: 30px;
+    color: rgb(168, 152, 152);
+    text-align: center;
+    background-color: aliceblue;
+}
+
+div.card button {
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(106, 194, 194);
+    margin: 10px 0;
+}
+

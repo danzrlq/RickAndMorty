@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://wallpaperaccess.com/full/6798923.jpg");
+  background-size: cover;
+}
+
+header {
+  height: 5vh;
+  width: 100vw;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+header h3 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+div.dugmici {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+button.page-btn {
+  background-color: rgba(158, 121, 121, 0.5);
+  color: #0c0606;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+button.prev-page, button.next-page {
+  background-color: #9e7979;
+}
+
+button.active {
+  background-color: #e9e9ed;
+}
+
+div.card {
+  margin: 30px;
+  color: #a89898;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+div.card button {
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #6ac2c2;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
